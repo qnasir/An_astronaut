@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+body{
+    font-family: sans-serif;
+}
 body{
     background-image: url(https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/sky-moon-bg%5B1%5D.png);
     width: 100vw;
@@ -17,7 +21,6 @@ body{
 @keyframes floating {
     0%{
         transform: translateY(0px)
-        transform: rotateX('45deg')
     }
     50%{
         transform: translateY(30px);
@@ -31,5 +34,32 @@ body{
     top: 28%;
     animation: floating 5s infinite;
     
+}
+
+form{
+    position: fixed;
+    top: 15%;
+    left: 56%;
+    width: 450px;
+    padding: 0 75px;
+    background-color: white;
+}
+
+.display-block{
+    display: block;
+}
+
+label{
+    display: block;
+    font-size: 16px;
+    margin: 20px 0 40px 0;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 26px;
+    width: 280px;
+    text-align: center;
+    margin: 20px auto;
 }
 
